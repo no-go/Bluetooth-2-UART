@@ -3,6 +3,10 @@
 Based on the [googlesamples/android-BluetoothChat](https://github.com/googlesamples/android-BluetoothChat)
 and some Hacks from [bluetooth-spp-terminal](https://github.com/Sash0k/bluetooth-spp-terminal/).
 
+## Get the App
+
+You can get a signed APK (4.4.4+) from [here](https://raw.githubusercontent.com/no-go/Bluetooth-2-UART/master/app/release/de.digisocken.bluetooth2uart.apk)
+
 ## License
 
 Copyright 2019 Jochen Peters, Krefeld

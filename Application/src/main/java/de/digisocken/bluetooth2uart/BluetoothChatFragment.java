@@ -304,6 +304,10 @@ public class BluetoothChatFragment extends Fragment {
                     byte[] readBuf = (byte[]) msg.obj;
                     // construct a string from the valid bytes in the buffer
                     String readMessage = new String(readBuf, 0, msg.arg1);
+                    Intent intent = new Intent(Constants.BROADCASTMSG);
+                    intent.putExtra("data", readMessage);
+                    getContext().sendBroadcast(intent);
+
                     mConversationArrayAdapter.add(mConnectedDeviceName + ":  " + readMessage);
                     break;
                 case Constants.MESSAGE_DEVICE_NAME:
